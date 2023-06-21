@@ -6,7 +6,7 @@ defmodule CloudIServiceSend do
 
   def project do
     [app: :cloudi_service_send,
-     version: "2.0.5",
+     version: "2.0.6",
      language: :erlang,
      erlc_options: [
        :deterministic,
@@ -21,7 +21,7 @@ defmodule CloudIServiceSend do
   end
 
   defp deps do
-    [{:cloudi_core, ">= 2.0.5"}]
+    [{:cloudi_core, ">= 2.0.6"}]
   end
 
   defp description do
